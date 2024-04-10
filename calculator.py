@@ -24,7 +24,7 @@ def calculate(expression):
             return str(a // b)
 
     except ValueError as e:
-        raise ee
+        raise e
 
 
 def main(input_str):
